@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73080702C5EA3D200FD5E3D /* ZonarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */; };
+		E73080722C5EA3D200FD5E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73080712C5EA3D200FD5E3D /* ContentView.swift */; };
+		E73080742C5EA3D300FD5E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73080732C5EA3D300FD5E3D /* Assets.xcassets */; };
+		E73080772C5EA3D300FD5E3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73080762C5EA3D300FD5E3D /* Preview Assets.xcassets */; };
+		E73080812C5EA3D300FD5E3D /* ZonarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73080802C5EA3D300FD5E3D /* ZonarTests.swift */; };
+		E730808B2C5EA3D300FD5E3D /* ZonarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730808A2C5EA3D300FD5E3D /* ZonarUITests.swift */; };
+		E730808D2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730808C2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E730807D2C5EA3D300FD5E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73080642C5EA3D200FD5E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E730806B2C5EA3D200FD5E3D;
+			remoteInfo = Zonar;
+		};
+		E73080872C5EA3D300FD5E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73080642C5EA3D200FD5E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E730806B2C5EA3D200FD5E3D;
+			remoteInfo = Zonar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E730806C2C5EA3D200FD5E3D /* Zonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarApp.swift; sourceTree = "<group>"; };
+		E73080712C5EA3D200FD5E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E73080732C5EA3D300FD5E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E73080762C5EA3D300FD5E3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E730807C2C5EA3D300FD5E3D /* ZonarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73080802C5EA3D300FD5E3D /* ZonarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarTests.swift; sourceTree = "<group>"; };
+		E73080862C5EA3D300FD5E3D /* ZonarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E730808A2C5EA3D300FD5E3D /* ZonarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarUITests.swift; sourceTree = "<group>"; };
+		E730808C2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73080692C5EA3D200FD5E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73080792C5EA3D300FD5E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73080832C5EA3D300FD5E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73080632C5EA3D200FD5E3D = {
+			isa = PBXGroup;
+			children = (
+				E730806E2C5EA3D200FD5E3D /* Zonar */,
+				E730807F2C5EA3D300FD5E3D /* ZonarTests */,
+				E73080892C5EA3D300FD5E3D /* ZonarUITests */,
+				E730806D2C5EA3D200FD5E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E730806D2C5EA3D200FD5E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E730806C2C5EA3D200FD5E3D /* Zonar.app */,
+				E730807C2C5EA3D300FD5E3D /* ZonarTests.xctest */,
+				E73080862C5EA3D300FD5E3D /* ZonarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E730806E2C5EA3D200FD5E3D /* Zonar */ = {
+			isa = PBXGroup;
+			children = (
+				E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */,
+				E73080712C5EA3D200FD5E3D /* ContentView.swift */,
+				E73080732C5EA3D300FD5E3D /* Assets.xcassets */,
+				E73080752C5EA3D300FD5E3D /* Preview Content */,
+			);
+			path = Zonar;
+			sourceTree = "<group>";
+		};
+		E73080752C5EA3D300FD5E3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E73080762C5EA3D300FD5E3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E730807F2C5EA3D300FD5E3D /* ZonarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73080802C5EA3D300FD5E3D /* ZonarTests.swift */,
+			);
+			path = ZonarTests;
+			sourceTree = "<group>";
+		};
+		E73080892C5EA3D300FD5E3D /* ZonarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E730808A2C5EA3D300FD5E3D /* ZonarUITests.swift */,
+				E730808C2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift */,
+			);
+			path = ZonarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E730806B2C5EA3D200FD5E3D /* Zonar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73080902C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "Zonar" */;
+			buildPhases = (
+				E73080682C5EA3D200FD5E3D /* Sources */,
+				E73080692C5EA3D200FD5E3D /* Frameworks */,
+				E730806A2C5EA3D200FD5E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zonar;
+			productName = Zonar;
+			productReference = E730806C2C5EA3D200FD5E3D /* Zonar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E730807B2C5EA3D300FD5E3D /* ZonarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73080932C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarTests" */;
+			buildPhases = (
+				E73080782C5EA3D300FD5E3D /* Sources */,
+				E73080792C5EA3D300FD5E3D /* Frameworks */,
+				E730807A2C5EA3D300FD5E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E730807E2C5EA3D300FD5E3D /* PBXTargetDependency */,
+			);
+			name = ZonarTests;
+			productName = ZonarTests;
+			productReference = E730807C2C5EA3D300FD5E3D /* ZonarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E73080852C5EA3D300FD5E3D /* ZonarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73080962C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarUITests" */;
+			buildPhases = (
+				E73080822C5EA3D300FD5E3D /* Sources */,
+				E73080832C5EA3D300FD5E3D /* Frameworks */,
+				E73080842C5EA3D300FD5E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73080882C5EA3D300FD5E3D /* PBXTargetDependency */,
+			);
+			name = ZonarUITests;
+			productName = ZonarUITests;
+			productReference = E73080862C5EA3D300FD5E3D /* ZonarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73080642C5EA3D200FD5E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E730806B2C5EA3D200FD5E3D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E730807B2C5EA3D300FD5E3D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E730806B2C5EA3D200FD5E3D;
+					};
+					E73080852C5EA3D300FD5E3D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E730806B2C5EA3D200FD5E3D;
+					};
+				};
+			};
+			buildConfigurationList = E73080672C5EA3D200FD5E3D /* Build configuration list for PBXProject "Zonar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73080632C5EA3D200FD5E3D;
+			productRefGroup = E730806D2C5EA3D200FD5E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E730806B2C5EA3D200FD5E3D /* Zonar */,
+				E730807B2C5EA3D300FD5E3D /* ZonarTests */,
+				E73080852C5EA3D300FD5E3D /* ZonarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E730806A2C5EA3D200FD5E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73080772C5EA3D300FD5E3D /* Preview Assets.xcassets in Resources */,
+				E73080742C5EA3D300FD5E3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E730807A2C5EA3D300FD5E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73080842C5EA3D300FD5E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73080682C5EA3D200FD5E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73080722C5EA3D200FD5E3D /* ContentView.swift in Sources */,
+				E73080702C5EA3D200FD5E3D /* ZonarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73080782C5EA3D300FD5E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73080812C5EA3D300FD5E3D /* ZonarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73080822C5EA3D300FD5E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E730808B2C5EA3D300FD5E3D /* ZonarUITests.swift in Sources */,
+				E730808D2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E730807E2C5EA3D300FD5E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E730806B2C5EA3D200FD5E3D /* Zonar */;
+			targetProxy = E730807D2C5EA3D300FD5E3D /* PBXContainerItemProxy */;
+		};
+		E73080882C5EA3D300FD5E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E730806B2C5EA3D200FD5E3D /* Zonar */;
+			targetProxy = E73080872C5EA3D300FD5E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E730808E2C5EA3D300FD5E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E730808F2C5EA3D300FD5E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73080912C5EA3D300FD5E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zonar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.Zonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E73080922C5EA3D300FD5E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zonar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.Zonar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E73080942C5EA3D300FD5E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.ZonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zonar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zonar";
+			};
+			name = Debug;
+		};
+		E73080952C5EA3D300FD5E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.ZonarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zonar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zonar";
+			};
+			name = Release;
+		};
+		E73080972C5EA3D300FD5E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.ZonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zonar;
+			};
+			name = Debug;
+		};
+		E73080982C5EA3D300FD5E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = plazm.ZonarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zonar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73080672C5EA3D200FD5E3D /* Build configuration list for PBXProject "Zonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E730808E2C5EA3D300FD5E3D /* Debug */,
+				E730808F2C5EA3D300FD5E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73080902C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "Zonar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73080912C5EA3D300FD5E3D /* Debug */,
+				E73080922C5EA3D300FD5E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73080932C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73080942C5EA3D300FD5E3D /* Debug */,
+				E73080952C5EA3D300FD5E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73080962C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73080972C5EA3D300FD5E3D /* Debug */,
+				E73080982C5EA3D300FD5E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73080642C5EA3D200FD5E3D /* Project object */;
+}
