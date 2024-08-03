@@ -54,6 +54,19 @@ struct Venue: Identifiable, Codable {
     }
 }
 
+
+struct Coordinate: Identifiable, Codable {
+    let id = UUID()
+    let latitude: Double
+    let longitude: Double
+
+    private enum CodingKeys: String, CodingKey {
+        case id
+        case latitude
+        case longitude
+    }
+}
+
 struct Location: Codable {
     let type: String
     let coordinates: [Coordinate]
@@ -63,15 +76,5 @@ struct Location: Codable {
         case type
         case coordinates
         case radius
-    }
-}
-
-struct Coordinate: Codable {
-    let latitude: Double
-    let longitude: Double
-
-    private enum CodingKeys: String, CodingKey {
-        case latitude
-        case longitude
     }
 }
