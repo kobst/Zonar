@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBFC45E433B6E8854F358F8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FFB77D4A94A67056AF09B9A7 /* amplifyconfiguration.json */; };
+		5945698060E08AF7A28C6199 /* Pods_Zonar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474663D7FB176A234B021621 /* Pods_Zonar.framework */; };
+		9AD9E68FE115C0BE03CB992F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 956E7267E79AE23D3F9C2B05 /* awsconfiguration.json */; };
+		B79E99AB0A43F77D9DFE1540 /* Pods_Zonar_ZonarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6881A883BFD0811F90B6059 /* Pods_Zonar_ZonarUITests.framework */; };
 		E73080702C5EA3D200FD5E3D /* ZonarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */; };
 		E73080722C5EA3D200FD5E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73080712C5EA3D200FD5E3D /* ContentView.swift */; };
 		E73080742C5EA3D300FD5E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73080732C5EA3D300FD5E3D /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 		E73080812C5EA3D300FD5E3D /* ZonarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73080802C5EA3D300FD5E3D /* ZonarTests.swift */; };
 		E730808B2C5EA3D300FD5E3D /* ZonarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730808A2C5EA3D300FD5E3D /* ZonarUITests.swift */; };
 		E730808D2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730808C2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift */; };
+		E744572C2C5EAB5900CF3A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744572B2C5EAB5900CF3A9F /* AppDelegate.swift */; };
+		E744572E2C5EAB6900CF3A9F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744572D2C5EAB6900CF3A9F /* LoginView.swift */; };
+		E74457302C5EABEA00CF3A9F /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E744572F2C5EABEA00CF3A9F /* Registration.swift */; };
+		E74457322C5EAC5D00CF3A9F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74457312C5EAC5D00CF3A9F /* AppState.swift */; };
+		EFAC46D32C842996D7592B34 /* Pods_ZonarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A20E819EFDFFC6E91018937 /* Pods_ZonarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3375D4EFBC42742AFE1ABF6F /* Pods-Zonar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar.release.xcconfig"; path = "Target Support Files/Pods-Zonar/Pods-Zonar.release.xcconfig"; sourceTree = "<group>"; };
+		3752D140FB98149ED0A46820 /* Pods-ZonarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarTests.release.xcconfig"; path = "Target Support Files/Pods-ZonarTests/Pods-ZonarTests.release.xcconfig"; sourceTree = "<group>"; };
+		41DB69D2FE52C10039CF30DE /* Pods-ZonarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZonarTests.debug.xcconfig"; path = "Target Support Files/Pods-ZonarTests/Pods-ZonarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		474663D7FB176A234B021621 /* Pods_Zonar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zonar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A20E819EFDFFC6E91018937 /* Pods_ZonarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZonarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872AD6B27A10F102343F544C /* Pods-Zonar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar.debug.xcconfig"; path = "Target Support Files/Pods-Zonar/Pods-Zonar.debug.xcconfig"; sourceTree = "<group>"; };
+		956E7267E79AE23D3F9C2B05 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		A6881A883BFD0811F90B6059 /* Pods_Zonar_ZonarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zonar_ZonarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C93E92DE23CAC633609D7 /* Pods-Zonar-ZonarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar-ZonarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zonar-ZonarUITests/Pods-Zonar-ZonarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C69685839583B5EF608C0E92 /* Pods-Zonar-ZonarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zonar-ZonarUITests.release.xcconfig"; path = "Target Support Files/Pods-Zonar-ZonarUITests/Pods-Zonar-ZonarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E730806C2C5EA3D200FD5E3D /* Zonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarApp.swift; sourceTree = "<group>"; };
 		E73080712C5EA3D200FD5E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +63,11 @@
 		E73080862C5EA3D300FD5E3D /* ZonarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZonarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E730808A2C5EA3D300FD5E3D /* ZonarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarUITests.swift; sourceTree = "<group>"; };
 		E730808C2C5EA3D300FD5E3D /* ZonarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E744572B2C5EAB5900CF3A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E744572D2C5EAB6900CF3A9F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E744572F2C5EABEA00CF3A9F /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		E74457312C5EAC5D00CF3A9F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		FFB77D4A94A67056AF09B9A7 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5945698060E08AF7A28C6199 /* Pods_Zonar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFAC46D32C842996D7592B34 /* Pods_ZonarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +91,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79E99AB0A43F77D9DFE1540 /* Pods_Zonar_ZonarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40C4117162EFE6035D198709 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				956E7267E79AE23D3F9C2B05 /* awsconfiguration.json */,
+				FFB77D4A94A67056AF09B9A7 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		456308526395E48B7CE32F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				872AD6B27A10F102343F544C /* Pods-Zonar.debug.xcconfig */,
+				3375D4EFBC42742AFE1ABF6F /* Pods-Zonar.release.xcconfig */,
+				C26C93E92DE23CAC633609D7 /* Pods-Zonar-ZonarUITests.debug.xcconfig */,
+				C69685839583B5EF608C0E92 /* Pods-Zonar-ZonarUITests.release.xcconfig */,
+				41DB69D2FE52C10039CF30DE /* Pods-ZonarTests.debug.xcconfig */,
+				3752D140FB98149ED0A46820 /* Pods-ZonarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6633D18D5F339914FBE806CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474663D7FB176A234B021621 /* Pods_Zonar.framework */,
+				A6881A883BFD0811F90B6059 /* Pods_Zonar_ZonarUITests.framework */,
+				7A20E819EFDFFC6E91018937 /* Pods_ZonarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E73080632C5EA3D200FD5E3D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +137,9 @@
 				E730807F2C5EA3D300FD5E3D /* ZonarTests */,
 				E73080892C5EA3D300FD5E3D /* ZonarUITests */,
 				E730806D2C5EA3D200FD5E3D /* Products */,
+				40C4117162EFE6035D198709 /* AmplifyConfig */,
+				456308526395E48B7CE32F71 /* Pods */,
+				6633D18D5F339914FBE806CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +156,13 @@
 		E730806E2C5EA3D200FD5E3D /* Zonar */ = {
 			isa = PBXGroup;
 			children = (
+				E7D6F1752C5EB1D000E41DD5 /* Models */,
 				E730806F2C5EA3D200FD5E3D /* ZonarApp.swift */,
 				E73080712C5EA3D200FD5E3D /* ContentView.swift */,
+				E744572B2C5EAB5900CF3A9F /* AppDelegate.swift */,
+				E744572D2C5EAB6900CF3A9F /* LoginView.swift */,
+				E74457312C5EAC5D00CF3A9F /* AppState.swift */,
+				E744572F2C5EABEA00CF3A9F /* Registration.swift */,
 				E73080732C5EA3D300FD5E3D /* Assets.xcassets */,
 				E73080752C5EA3D300FD5E3D /* Preview Content */,
 			);
@@ -127,6 +194,13 @@
 			path = ZonarUITests;
 			sourceTree = "<group>";
 		};
+		E7D6F1752C5EB1D000E41DD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73080902C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "Zonar" */;
 			buildPhases = (
+				A3290DA37AC9AD992F440164 /* [CP] Check Pods Manifest.lock */,
 				E73080682C5EA3D200FD5E3D /* Sources */,
 				E73080692C5EA3D200FD5E3D /* Frameworks */,
 				E730806A2C5EA3D200FD5E3D /* Resources */,
+				19DBBF12741A2B26743280A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73080932C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarTests" */;
 			buildPhases = (
+				F729DE8CEE303551A743961D /* [CP] Check Pods Manifest.lock */,
 				E73080782C5EA3D300FD5E3D /* Sources */,
 				E73080792C5EA3D300FD5E3D /* Frameworks */,
 				E730807A2C5EA3D300FD5E3D /* Resources */,
@@ -169,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E73080962C5EA3D300FD5E3D /* Build configuration list for PBXNativeTarget "ZonarUITests" */;
 			buildPhases = (
+				4291917101F80363108FD2EE /* [CP] Check Pods Manifest.lock */,
 				E73080822C5EA3D300FD5E3D /* Sources */,
 				E73080832C5EA3D300FD5E3D /* Frameworks */,
 				E73080842C5EA3D300FD5E3D /* Resources */,
+				EC1F1B97B99FF70A7BEE4198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +312,8 @@
 			files = (
 				E73080772C5EA3D300FD5E3D /* Preview Assets.xcassets in Resources */,
 				E73080742C5EA3D300FD5E3D /* Assets.xcassets in Resources */,
+				9AD9E68FE115C0BE03CB992F /* awsconfiguration.json in Resources */,
+				2EBFC45E433B6E8854F358F8 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,12 +333,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19DBBF12741A2B26743280A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zonar/Pods-Zonar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zonar/Pods-Zonar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zonar/Pods-Zonar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4291917101F80363108FD2EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zonar-ZonarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3290DA37AC9AD992F440164 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zonar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1F1B97B99FF70A7BEE4198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zonar-ZonarUITests/Pods-Zonar-ZonarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zonar-ZonarUITests/Pods-Zonar-ZonarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zonar-ZonarUITests/Pods-Zonar-ZonarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F729DE8CEE303551A743961D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZonarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E73080682C5EA3D200FD5E3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E744572C2C5EAB5900CF3A9F /* AppDelegate.swift in Sources */,
 				E73080722C5EA3D200FD5E3D /* ContentView.swift in Sources */,
+				E744572E2C5EAB6900CF3A9F /* LoginView.swift in Sources */,
+				E74457322C5EAC5D00CF3A9F /* AppState.swift in Sources */,
+				E74457302C5EABEA00CF3A9F /* Registration.swift in Sources */,
 				E73080702C5EA3D200FD5E3D /* ZonarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +604,7 @@
 		};
 		E73080912C5EA3D300FD5E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872AD6B27A10F102343F544C /* Pods-Zonar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -423,6 +612,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Zonar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +634,7 @@
 		};
 		E73080922C5EA3D300FD5E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3375D4EFBC42742AFE1ABF6F /* Pods-Zonar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +642,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Zonar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -472,6 +664,7 @@
 		};
 		E73080942C5EA3D300FD5E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DB69D2FE52C10039CF30DE /* Pods-ZonarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +684,7 @@
 		};
 		E73080952C5EA3D300FD5E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3752D140FB98149ED0A46820 /* Pods-ZonarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +704,7 @@
 		};
 		E73080972C5EA3D300FD5E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26C93E92DE23CAC633609D7 /* Pods-Zonar-ZonarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +722,7 @@
 		};
 		E73080982C5EA3D300FD5E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69685839583B5EF608C0E92 /* Pods-Zonar-ZonarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
